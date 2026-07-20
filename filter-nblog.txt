@@ -1,0 +1,12 @@
+! Title: B1NK's Naver Blog Filter
+! Description: Filter List for Naver Blog
+! Version: 2026.07.21
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/b1nknet/ublock-filters
+! License: https://github.com/b1nknet/ublock-filters/blob/master/License
+
+blog.naver.com##.hot_topic
+blog.naver.com##div.area_guide
+blog.naver.com##div.area_link
+blog.naver.com##div.message_box
+blog.naver.com##div.navigator_lnb_sub

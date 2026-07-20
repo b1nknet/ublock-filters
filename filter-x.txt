@@ -1,0 +1,11 @@
+! Title: B1NK's X Filter
+! Description: Filter List for X (Formerly Twitter)
+! Version: 2026.07.21
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/b1nknet/ublock-filters
+! License: https://github.com/b1nknet/ublock-filters/blob/master/License
+
+x.com##aside:has-text("Subscribe to Premium")
+x.com##a[href*="premium_sign_up"]
+x.com##a[href*="grok"]
+x.com##a[href*="studio"]

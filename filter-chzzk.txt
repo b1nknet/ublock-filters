@@ -1,0 +1,50 @@
+! Title: B1NK's Chzzk Filter
+! Description: Filter List for Naver Chzzk
+! Version: 2026.07.21
+! Expires: 1 day (update frequency)
+! Homepage: https://github.com/b1nknet/ublock-filters
+! License: https://github.com/b1nknet/ublock-filters/blob/master/License
+
+! Main
+chzzk.naver.com##._is_collapsed_emx6c_21._wrapper_emx6c_16
+chzzk.naver.com##._is_scrolled_emx6c_12._container_emx6c_2
+chzzk.naver.com##div[class*="_section_"] > section:not(:has([class*="_filter_"])):not(:has(a[href*="following"]))
+
+! Sidebar
+chzzk.naver.com##nav[class*="_section_"] a[href="/clips"]:upward(li)
+chzzk.naver.com##nav[class*="_section_"] a[href="/schedule"]:upward(li)
+chzzk.naver.com##a[class*="_banner_"]:upward(li)
+chzzk.naver.com##nav[class*="_section_"][class*="_is_expanded_"]:has([class*="_title_"]:not(:has-text(팔로잉 채널)))
+
+! Sidebar - Collapsed
+chzzk.naver.com##nav[class*="_section_"]:not([class*="_is_expanded_"]) a[href="/cheezefarm"]:upward(li)
+chzzk.naver.com##nav[class*="_section_"]:not([class*="_is_expanded_"]):not(:has(a[href="/lives"])):not(:has-text("팔로우"))
+
+! Header
+chzzk.naver.com##nav[class*="_navigation_"]
+chzzk.naver.com##a[href*="game.naver.com/profile#cash"]:upward([class*="_item_"])
+chzzk.naver.com##a[href*="/event/fifaworldcup2026"]
+
+! Header/Sidebar/Body padding fix
+chzzk.naver.com###header:style(transform: unset !important)
+chzzk.naver.com###sidebar:style(transform: translateY(60px) !important; height: calc(-60px + 100vh) !important)
+chzzk.naver.com###layout-body:style(padding-top: 0px !important; min-height: 100vh !important)
+
+! Profile Menu
+chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(2) > ul > li[class*="_item_"]:nth-of-type(5) > [class*="_area_"]
+chzzk.naver.com##[id="header"] li[class*="_item_"]:nth-of-type(8) > [class*="_area_"]
+chzzk.naver.com##[id="header"] li[class*="_item_"]:nth-of-type(9) > [class*="_area_"]
+chzzk.naver.com##[id="header"] li[class*="_item_"]:nth-of-type(10) > [class*="_area_"]
+chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(3)
+chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(4)
+chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(5) > ul > li[class*="_item_"]:nth-of-type(1) > [class*="_area_"]
+chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(5) > ul > li[class*="_item_"]:nth-of-type(2) > [class*="_area_"]
+
+! Stream
+chzzk.naver.com##button:has(span:has-text("구독 선물"))
+chzzk.naver.com##button:has(span:has-text("플레이"))
+chzzk.naver.com##div[class*="_floating_"]
+chzzk.naver.com##+js(no-xhr-if, nam.veta.naver.com method:OPTIONS)
+
+! Main Homepage Event Popup
+chzzk.naver.com##div[data-nlog-area="event_popup"]
