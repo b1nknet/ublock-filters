@@ -24,6 +24,7 @@ chzzk.naver.com##nav[class*="_section_"]:not([class*="_is_expanded_"]):not(:has(
 chzzk.naver.com##nav[class*="_navigation_"]
 chzzk.naver.com##a[href*="game.naver.com/profile#cash"]:upward([class*="_item_"])
 chzzk.naver.com##a[href*="/event/fifaworldcup2026"]
+chzzk.naver.com##a[href*="game.naver.com/profile#cheat_key"]
 
 ! Header/Sidebar/Body padding fix
 chzzk.naver.com###header:style(transform: unset !important)
@@ -42,6 +43,7 @@ chzzk.naver.com##[id="header"] [class*="_wrapper_"]:nth-of-type(5) > ul > li[cla
 
 ! Stream
 chzzk.naver.com##button:has(span:has-text("구독 선물"))
+chzzk.naver.com##button:has-text("구독 선물")
 chzzk.naver.com##button:has(span:has-text("플레이"))
 chzzk.naver.com##div[class*="_floating_"]
 chzzk.naver.com##+js(no-xhr-if, nam.veta.naver.com method:OPTIONS)
