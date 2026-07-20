@@ -5,12 +5,12 @@ Personal Filters for uBlock Origin
 <details><summary>All Links</summary>
 
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-x.txt
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-naver.txt
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-nsearch.txt
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-ncafe.txt
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-nblog.txt
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-chzzk.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-x.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-naver.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-nsearch.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-ncafe.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-nblog.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-chzzk.txt
 ```
 </details>
 
@@ -18,30 +18,30 @@ https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-
 
 - X (Formerly Twitter)
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-x.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-x.txt
 ```
 
 - Naver (Main Page)
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-naver.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-naver.txt
 ```
 
 - Naver (Search Page)
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-nsearch.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-nsearch.txt
 ```
 
 - Naver Cafe
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-ncafe.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-ncafe.txt
 ```
 
 - Naver Blog
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-nblog.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-nblog.txt
 ```
 
 - Chzzk
 ```
-https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/main/filter-chzzk.txt
+https://raw.githubusercontent.com/b1nknet/ublock-filters/refs/heads/master/filter-chzzk.txt
 ```
