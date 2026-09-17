@@ -1,6 +1,6 @@
 ! Title: B1NK's Chzzk Filter
 ! Description: Filter List for Naver Chzzk
-! Version: 2026.09.14
+! Version: 2026.09.18
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/b1nknet/ublock-filters
 ! License: https://github.com/b1nknet/ublock-filters/blob/master/License
@@ -8,7 +8,10 @@
 ! Main
 chzzk.naver.com##._is_collapsed_emx6c_21._wrapper_emx6c_16
 chzzk.naver.com##._is_scrolled_emx6c_12._container_emx6c_2
-chzzk.naver.com##div[class*="_enter_"] > section:not(:has([class*="_filter_"])):not(:has(a[href*="following"]))
+chzzk.naver.com##:matches-path(/^\/(?:\?.*)?$/) div[class*="_enter_"] > section:not(:has([class*="_filter_"])):not(:has(a[href*="following"]))
+
+! Following
+chzzk.naver.com##:matches-path(/^\/following(?:\/.*)?(?:\?.*)?$/) section[class*="_container_"]:has-text(/^\s*(?:최근 소식|오프라인)/)
 
 ! Sidebar
 chzzk.naver.com##nav[class*="_section_"] a[href="/clips"]:upward(li)
