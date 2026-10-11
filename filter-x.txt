@@ -1,6 +1,6 @@
 ! Title: B1NK's X Filter
 ! Description: Filter List for X (Formerly Twitter)
-! Version: 2026.07.21
+! Version: 2026.10.12
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/b1nknet/ublock-filters
 ! License: https://github.com/b1nknet/ublock-filters/blob/master/License
@@ -13,6 +13,7 @@ x.com##a[href*="ads.x.com"]
 x.com##a[href*="spaces/start"]
 x.com##a[href*="communities"]
 x.com##a[href*="connect_people"]
+x.com##a[href*="calls"]
 
 x.com##div[aria-label="Trending"] > div > div:nth-child(3)
 x.com##div[aria-label="Trending"] > div > div:has(aside:has-text("Subscribe to Premium"))
