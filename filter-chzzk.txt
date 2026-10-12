@@ -1,6 +1,6 @@
 ! Title: B1NK's Chzzk Filter
 ! Description: Filter List for Naver Chzzk
-! Version: 2026.09.18
+! Version: 2026.10.12
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/b1nknet/ublock-filters
 ! License: https://github.com/b1nknet/ublock-filters/blob/master/License
@@ -31,7 +31,7 @@ chzzk.naver.com##a[href*="game.naver.com/profile#cheat_key"]
 
 ! Header/Sidebar/Body padding fix
 chzzk.naver.com###header:style(transform: unset !important)
-chzzk.naver.com###sidebar:style(transform: translateY(60px) !important; height: calc(-60px + 100vh) !important)
+chzzk.naver.com###sidebar:style(top: 60px !important; transform: none !important; height: calc(100vh - 60px) !important)
 chzzk.naver.com###layout-body:style(padding-top: 0px !important; min-height: 100vh !important)
 
 ! Profile Menu
